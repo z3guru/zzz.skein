@@ -1,0 +1,23 @@
+{
+  "name": "zzz.skein",
+  "version": "0.0.1",
+  "description": "A tool for data communication on TCP, etc...",
+  "main": "skein.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha unittest/*test.js --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z3guru/zzz.skein.git"
+  },
+  "author": "www.z3.guru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/z3guru/zzz.skein/issues"
+  },
+  "homepage": "https://github.com/z3guru/zzz.skein#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "rewire": "^4.0.1"
+  }
+}
