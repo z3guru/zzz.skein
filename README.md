@@ -1,6 +1,6 @@
 # zzz.skein
 
-[![NPM version](http://img.shields.io/npm/v/zzz.async.svg)](https://www.npmjs.org/package/zzz.async)
+[![NPM version](http://img.shields.io/npm/v/zzz.skein.svg)](https://www.npmjs.org/package/zzz.skein)
 
 
 ### Description
