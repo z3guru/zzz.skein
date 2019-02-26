@@ -135,7 +135,7 @@ class Skein
 		return value;
 	}
 
-	putShort(vv) { this.putShort(vv, 2); }
+	putShort(vv) { this.putInt(vv, 2); }
 	getShort() { return this.getInt(2); }
 
 	putUInt(vv, sz)

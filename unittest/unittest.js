@@ -52,6 +52,18 @@ describe("TestSkein", function() {
 
 	});
 
+	it("testPut", function() {
+		let skein  = nio.Skein.allocate(1024);
+		skein.order = nio.Skein.BIG_ENDIAN;
+		skein.putShort(0x0123);
+		skein.flip();
+
+		assert.strictEqual(skein.get(), 0x01);
+		assert.strictEqual(skein.get(), 0x23);
+
+		skein.clear();
+	});
+
 	it("testCut", function() {
 		let skein  = nio.Skein.allocate(1024);
 		skein.putArray([0x01,0x02,0x03,0x04,0x05]);

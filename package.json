@@ -1,6 +1,6 @@
 {
   "name": "zzz.skein",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tool for data communication on TCP, etc...",
   "main": "skein.js",
   "scripts": {
